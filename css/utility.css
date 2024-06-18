@@ -1,0 +1,78 @@
+.border {
+  border: 2px solid red;
+  margin: 3px;
+}
+
+.flex {
+  display: flex;
+}
+.justify-center {
+  justify-content: center;
+}
+items-center {
+  align-items: center;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.invert{
+    filter:invert(1);
+}
+.bg-grey{
+    background-color: #121212;
+
+}
+.rounded{
+    border-radius: 7px;
+}
+.invert{
+    fill: white;
+}
+.m-1{
+    margin: 5px;
+
+}
+.p-1{
+    padding: 10px;
+}
+/* For Webkit browsers (Chrome, Safari, etc.) */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #333; /* Dark scrollbar track color */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #666; /* Light scrollbar thumb color */
+  border-radius: 6px;
+}
+
+/* For Firefox */
+/* Note: Firefox supports only a limited set of scrollbar styles */
+
+/* Uncomment the following lines if you want to style Firefox scrollbar */
+/*
+* {
+  scrollbar-color: #333 #666;
+  scrollbar-width: thin;
+}
+*/
+
+/* For Microsoft Edge and Internet Explorer */
+/* Note: Edge and IE support only a limited set of scrollbar styles */
+
+/* Uncomment the following lines if you want to style Edge and IE scrollbar */
+/*
+body {
+  scrollbar-face-color: #666;
+  scrollbar-arrow-color: #333;
+  scrollbar-3dlight-color: #333;
+  scrollbar-highlight-color: #333;
+  scrollbar-shadow-color: #333;
+  scrollbar-darkshadow-color: #333;
+  scrollbar-track-color: #333;
+}
+*/
